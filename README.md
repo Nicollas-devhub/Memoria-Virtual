@@ -1,1 +1,0 @@
-# A-CONDI-O-DE-CORRIDA
