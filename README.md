@@ -28,3 +28,10 @@ A TLB acelera a tradução de endereços quando a página já está na RAM (p. 1
 **c) Algoritmo de substituição baseado no conjunto de trabalho (p. 153).** O livro aponta envelhecimento (que aproxima o LRU) e WSClock como os dois melhores na prática. O WSClock é bom e eficiente de implementar. Já o FIFO é uma má escolha, porque pode descartar páginas ainda em uso.
 
 **d) Área de troca em disco separado (p. 164).** O livro recomenda criar a área de troca num disco separado do sistema de arquivos, para equilibrar a carga de E/S. Isso reduz a disputa entre paginação e leitura/escrita dos arquivos de textura.
+
+# Referências
+FIGUEIREDO, Roberto Tenório; DOS SANTOS, Vivianni Marques Leite; RAMOS, Jorge Luís Cavalcanti. Speed Schedule - Jogo para auxílio no estudo das políticas de escalonamento em Sistemas Operacionais. Informática na educação teoria & prática, v. 23, n. 1, 2020.
+
+MAGAGNIN, Nicole Migliorini; MEZGER, Benjamin William; DE MELO, Douglas Rossi. Técnica de confiabilidade em nível de sistema operacional para a arquitetura RISC-V. Anais do Computer on the Beach, 2024.
+
+HOSS, Diego Jonathan et al. Processamento Paralelo com Hyper-Threading: Uma Analise de Desempenho Como Instrumento de Ensino e Aprendizagem em Sistemas Operacionais. Anais do Workshop sobre Educação em Computação (WEI), p. 11–20, 2019.s
